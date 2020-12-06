@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Learning</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <style>
+    #myDiv {
+      border: thick outset lightseagreen;
+      height: 450px;
+      width: 60%;
+    }
+    
+    </style>
+</head>
+
+<body>
+
+  <input type="checkbox" id="check">
+  <!--header area start-->
+  <header>
+    <label for="check">
+      <i class="fas fa-bars" id="sidebar_btn"></i>
+    </label>
+    <div class="left_area">
+      <img src="images/logo.png" class="image" alt="" width="200px" height="70px" />
+    </div>
+  </header>
+  <!--header area end-->
+
+  <!--sidebar start-->
+  <div class="sidebar">
+    <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
+    <div class="active"><a href="python.html"><i class="fab fa-python"></i><span>Python</span></a></div>
+    <a href="java.html"><i class="fab fa-java"></i><span>Java</span></a>
+    <a href="c.html"><i class="fab fa-cuttlefish"></i><span>C Programming</span></a>
+    <a href="dashboard.html"><i class="fas fa-sign-out-alt"></i><span>Back to Dashboard</span></a>
+  </div>
+  <!--sidebar end-->
+
+  <div class="content">
+      <center>
+        <iframe width="1060" height="500" src="https://www.youtube.com/embed/_uQrJ0TkZlc" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
+        allowfullscreen></iframe>
+      </center>
+    </div>
+
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.nav_btn').click(function () {
+          $('.mobile_nav_items').toggleClass('active');
+        });
+      });
+    </script>
+
+</body>
+
+</html>

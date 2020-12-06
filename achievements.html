@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Learning</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <style>
+    #myDiv {
+      border: thick outset lightseagreen;
+      height: 450px;
+      width: 60%;
+    }
+    
+    </style>
+</head>
+
+<body>
+
+  <input type="checkbox" id="check">
+  <!--header area start-->
+  <header>
+    <label for="check">
+      <i class="fas fa-bars" id="sidebar_btn"></i>
+    </label>
+    <div class="left_area">
+      <img src="images/logo.png" class="image" alt="" width="200px" height="70px" />
+    </div>
+
+  </header>
+  <!--header area end-->
+
+  <!--sidebar start-->
+  <div class="sidebar">
+    <div class="profile_info">
+      <img src="images/personlogo.png" class="profile_image" alt="">
+      <h4>Ganesh</h4>
+    </div>
+    <a href="dashboard.html"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+    <a href="course.html"><i class="fas fa-book-open"></i><span>Courses</span></a>
+    <div class="active"><a href="#"><i class="fas fa-certificate"></i><span>Achivements</span></a></div>
+    <a href="facingissue.php"><i class="fas fa-question-circle"></i><span>Facing Issue</span></a>
+    <a href="login.php"><i class="fas fa-sign-out-alt"></i><span>Logout</span></a>
+  </div>
+  <!--sidebar end-->
+
+  <div class="content">
+        <center>
+            <div id="myDiv">
+                <img src="images/logo.png" alt="logo" width="200" height="70">
+                <h1 style="font-family:Certificate;text-align:center;font-size:300%;">Certificate</h1>
+                <p style="font-family:Consolas;text-align:center;font-size:100%;">
+                This certificate is awarded to<br> <br>
+                Mr./Ms. <br> <br>
+                On successful completion of course <br> <br> <br> <br> </p>
+                <p style="font-family:Consolas;text-align:center;font-size:100%;"> Signature  </p>
+                </p>
+                </div>
+        </center>
+    </div>
+
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.nav_btn').click(function () {
+          $('.mobile_nav_items').toggleClass('active');
+        });
+      });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Learning</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <input type="checkbox" id="check">
+  <!--header area start-->
+  <header>
+    <label for="check">
+      <i class="fas fa-bars" id="sidebar_btn"></i>
+    </label>
+    <div class="left_area">
+      <img src="images/logo.png" class="image" alt="" width="200px" height="70px" />
+    </div>
+
+  </header>
+  <!--header area end-->
+
+  <!--sidebar start-->
+  <div class="sidebar">
+    <div class="profile_info">
+      <img src="images/personlogo.png" class="profile_image" alt="">
+      <h4>Ganesh</h4>
+    </div>
+    <div class="active"><a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a></div>
+    <a href="course.html"><i class="fas fa-book-open"></i><span>Courses</span></a>
+    <a href="achievements.html"><i class="fas fa-certificate"></i><span>Achivements</span></a>
+    <a href="facingissue.php"><i class="fas fa-question-circle"></i><span>Facing Issue</span></a>
+    <a href="login.php"><i class="fas fa-sign-out-alt"></i><span>Logout</span></a>
+  </div>
+  <!--sidebar end-->
+
+  <div class="content">
+    <div class="card">
+      <img src="images/coursecover.jpg" class="image" alt="" width="1070" />
+      <h2></h2>
+      <h2></h2>
+      <center>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="full">
+                <div class="heading_main text_align_center">
+
+                  <h2><span>News</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="full blog_img_popular">
+                    <img class="img-responsive" src="images/tech.jpg" alt="#" />
+                    <h4>Technology</h4>
+                    <p>Robot hands can be used in many applications, such as manufacturing, surgery and dangerous
+                      activities like nuclear decommissioning. For instance, robotic hands can be very useful in
+                      computer assembly where assembling microchips requires a level of precision that only human hands
+                      can currently achieve. Thanks to the utilization of robot hands in assembly lines, higher
+                      productivity may be achieved whilst securing reduced exposure from work risk situations to human
+                      workers.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="full blog_img_popular">
+                    <img class="img-responsive" src="images/edu.jpg" alt="#" />
+                    <h4>Education</h4>
+                    <p>The MHT CET Vocational results 2020 will be declared tomorrow, December 5. The Maharashtra Common
+                      Entrance Test Cell (MHT CET Cell) will publish the MHT CET 2020 vocational results on the official
+                      websites -- cetcell.mahacet.org and mhtcet2020.mahaonline.gov.in. Candidates can check the MHT CET
+                      vocational results 2020 at the official website by logging in with their user IDs and passwords.
+                      While confirming the MHT CET vocational result date, Maharashtra Education Minister Uday Samant
+                      said: “The results of all the entrance examinations for various vocational courses conducted by
+                      the State Common Entrance Examination Cell will be published on the official website of the CET
+                      Cell on 5th December.”</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="full blog_img_popular">
+                    <img class="img-responsive" src="images/sport.png" alt="#" />
+                    <h4>Sports</h4>
+                    <p>In the first two ODIs against Australia in Sydney, India were given a mammoth target of 350-plus
+                      runs and although they managed to go past the 300 run-mark in both the games, former England
+                      captain Michael Vaughan believes that India played very conservative cricket at the start of their
+                      innings.
+                      Vaughan is of the opinion that looking at the strength of the Indian batting line-up they can
+                      perhaps be given the license to be a little more aggressive upfront and not necessarily be pushed
+                      to play conservative cricket.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="full blog_img_popular">
+                    <img class="img-responsive" src="images/politic.jpg" alt="#" />
+                    <h4>Politics</h4>
+                    <p>: The Supreme Court Friday questioned the Centre over delay in sending proposal to the President
+                      for commuting the death sentence of Balwant Singh Rajoana, convicted in the 1995 assassination
+                      case of former Punjab Chief Minister Beant Singh.
+                      A bench headed by Chief Justice S A Bobde asked the Centre to apprise it as to when the
+                      authorities concerned will send the proposal to the President under Article 72 of the
+                      Constitution. The article deals with power of President to grant pardon, s ..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </center>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.nav_btn').click(function () {
+          $('.mobile_nav_items').toggleClass('active');
+        });
+      });
+    </script>
+
+</body>
+
+</html>
